@@ -24,6 +24,7 @@ _Note, if nycflights13 in not installed in your system, RStudio might prompt you
 ```{r subset-data}
 jan_feb_flights <- flights %>%
   filter(month %in% c(1, 2))
+head(jan_feb_flights, 10)
 ```
 
 ## 1.2 Column Overview
