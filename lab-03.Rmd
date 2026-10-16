@@ -1,6 +1,6 @@
 ---
 title: "Lab 03 – Critical-Responsible Use of GenAI for Data Science"
-author: "Team Name: TianaoChen, WenboTang, QingxinGeng, User4,RogerWang"
+author: "Team Name: TianaoChen, WenboTang, QingxinGeng, ZijieGu ,RogerWang"
 date: "`r Sys.Date()`"
 output: html_document
 ---
