@@ -40,14 +40,22 @@ glimpse(jan_feb_flights)
 
 ```{r}
 # which columns are integer
-
+jan_feb_flights %>%
+  summarise(
+    across(everything(), is.integer)
+  )
 
 # which columns are double
-
+jan_feb_flights %>%
+  summarise(
+    across(everything(), is.double)
+  )
 
 # which columns are character
-
-
+jan_feb_flights %>%
+  summarise(
+    across(everything(), is.character)
+  )
 ```
 
 ```{r}
